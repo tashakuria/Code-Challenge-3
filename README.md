@@ -1,4 +1,4 @@
-#  Post Pulse – A Cat-Themed Blog Manager
+#   Blog Manager
 
 Welcome to **Post it**, a cozy blog that lets you create, read, update, and delete cat-related blog posts using a simple front-end interface and a lightweight backend powered by `json-server`.
 
