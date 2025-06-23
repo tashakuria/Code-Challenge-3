@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Tom the Curious",
+      "content": "Tom loves knocking over cups at 3AM and stares at the wall like he sees ghosts.",
+      "author": "Tasha"
+    },
+    {
+      "id": "2",
+      "title": "Bean’s First Day",
+      "content": "Bean was so shy at first, but now she’s queen of the windowsill.",
+      "author": "Tasha"
+    },
+    {
+      "id": "777f",
+      "title": "Miso",
+      "content": "Miso like licking toes!!\n",
+      "author": "tasha"
+    },
+    {
+      "id": "653d",
+      "title": "Snowy",
+      "content": "Snowy scratched me terribly.\n",
+      "author": "Kibor"
+    }
+  ]
+}

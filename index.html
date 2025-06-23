@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Post Pulse</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>POST IT!! :)</h1>
+<div id="post-list"></div>
+<div id="post-detail"></div>
+
+<form id="new-post-form">
+<h3>Submit a Cat Post</h3>
+<input type="text" name="title" placeholder="Cat Name or Title" required />
+<input type="text" name="author" placeholder="Your Name" required />
+<textarea name="content" placeholder="Describe the cat moment..." required></textarea>
+<button type="submit">Post It!</button>
+</form>
+
+<form id="edit-post-form" class="hidden">
+<h4>Update Post Details</h4>
+<input type="text" name="title" id="edit-title" required />
+<textarea name="content" id="edit-content" required></textarea>
+<button type="submit">Update Post</button>
+<button type="button" id="cancel-edit">Cancel</button>
+</form>
+
+<script src="index.js"></script>
+</body>
+</html>

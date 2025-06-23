@@ -1,0 +1,88 @@
+
+body {
+font-family: 'Comic Sans MS', cursive, sans-serif;
+background-color: #fff5f8;
+color: #444;
+margin: 0;
+padding: 20px;
+}
+
+h1 {
+text-align: center;
+color: #ff8fab;
+font-size: 3rem;
+margin-bottom: 30px;
+}
+
+#post-list div {
+cursor: pointer;
+margin-bottom: 12px;
+border: 2px dashed #ffcfe0;
+background-color: #e6fdff;
+padding: 15px;
+border-radius: 12px;
+transition: all 0.3s ease;
+}
+
+#post-list div:hover {
+background-color: #d4d3ff;
+}
+
+#post-detail {
+margin-top: 30px;
+padding: 20px;
+border-radius: 14px;
+background-color: #f0f4ff;
+border: 2px solid #ffcce0;
+box-shadow: 0 2px 8px rgba(255, 192, 203, 0.3);
+}
+
+form {
+margin-top: 30px;
+background-color: #fff8fc;
+border: 2px solid #ffe0f0;
+padding: 20px;
+border-radius: 16px;
+box-shadow: 0 4px 10px rgba(255, 182, 193, 0.2);
+}
+
+form h3,
+form h4 {
+margin-top: 0;
+color: #f06292;
+}
+
+input[type="text"],
+textarea {
+width: 100%;
+padding: 10px;
+margin-top: 8px;
+margin-bottom: 15px;
+border: 1px solid #ffc4d6;
+border-radius: 10px;
+background-color: #f3f0ff;
+}
+
+textarea {
+height: 80px;
+resize: none;
+}
+
+button {
+background-color: #201c20;
+color: white;
+border: none;
+padding: 10px 20px;
+margin-right: 10px;
+border-radius: 8px;
+cursor: pointer;
+transition: background-color 0.2s ease;
+}
+
+button:hover {
+background-color: #ff6f91;
+}
+
+.hidden {
+display: none;
+}
